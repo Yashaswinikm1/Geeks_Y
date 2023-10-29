@@ -1,0 +1,185 @@
+Java was created in 1991 - 1995
+
+It was developed by a programmer named James Gosling @ Sun Microsystems 
+
+Java was acquired by Oracle 
+
+usage: 
+1. Web Development 
+2. Desktop Application Development
+3. Android Application Development
+4. Game Development
+
+Features of Java
+1. Object Oriented Programming Language
+2. Platform Independent
+3. Secure
+4. Multi Threading 
+
+Java Program -> Java Compiler -> Bytecode : can be run on any platforms like windows, linux or MacOS
+
+JDK: Java Development Kit 
+	JRE: Java Runtime Environment 
+		JVM: Java Virtual Machine 
+		Class Libraries and other Libraries 
+
+JAVA Installation: 
+ Google Search: JDK Java Download
+
+download and install the exe file
+
+to check if JAVA is installed on your system
+
+open command prompt: Type cmd in search tab of your PC
+
+Type: java -version
+
+IDE: Integrated Development Environment 
+
+We will be using Eclipse IDE
+
+Search for Eclipse IDE on Google, Click on the first link, go to downloads section and download. 
+
+After downloading, run the installer file - select Eclipse IDE for "Enterprise Java Developers"
+
+A class name should always start with an uppercase first letter.
+
+java is case sensitive - Myjava - myjava
+
+The name of the java file must match the class name
+
+// single line comments
+
+/* multiple
+ line 
+ comment*/
+
+print vs println
+
+Variables - containers that store data
+ 
+1. String - "Welcome to JAVA Bootcamp"
+2. int - 22 , -45
+3. float - 15.23 or -99.99
+4. char - 's', 'E'
+5. boolean - true or false
+
+Declaring Variables
+
+type variableName = value;
+
+String s = "Welcome to JAVA Bootcamp";
+System.out.println(s);
+    
+int num;
+num = 15;
+System.out.println(num);
+
+int num = 20;
+num = 15;
+System.out.println(num);
+
+Final Keyword - to make the variable unchangable
+final int num = 15;
+num = 20; 
+
+
+Declaring other types of variables
+
+int myNum = 5;
+float myFloatNum = 5.99f;
+char myLetter = 'D';
+boolean myBool = true;
+String myText = "Hello";
+
+String firstName = "John";
+String lastName = "Doe";
+String fullName = firstName + lastName;
+System.out.println(fullName);
+
+int x = 5;
+int y = 6;
+System.out.println(x + y); 
+
+int x = 5, y = 6, z = 50;
+System.out.println(x + y + z);
+
+int x, y, z;
+x = y = z = 50;
+System.out.println(x + y + z);
+
+Identifiers
+All Java variables must be identified with unique names.
+
+These unique names are called identifiers. 
+
+The general rules for naming variables are:
+
+Names can contain letters, digits, underscores, and dollar signs
+Names must begin with a letter
+Names should start with a lowercase letter and it cannot contain whitespace
+Names can also begin with $ and _ 
+Names are case sensitive ("myVar" and "myvar" are different variables)
+Reserved words (like Java keywords, such as int or boolean) cannot be used as names
+
+Data types are divided into two groups:
+
+Primitive data types (8)- includes byte, short, int, long, float, double, boolean and char
+Non-primitive data types - such as String, Arrays and Classes
+
+
+Data Type	Size		Description
+
+byte		1 byte		Stores whole numbers from -128 to 127
+short		2 bytes		Stores whole numbers from -32,768 to 32,767
+int			4 bytes		Stores whole numbers from -2,147,483,648 to 2,147,483,647
+long		8 bytes		Stores whole numbers from -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807
+float		4 bytes		Stores fractional numbers. Sufficient for storing 6 to 7 decimal digits
+double		8 bytes		Stores fractional numbers. Sufficient for storing 15 decimal digits
+boolean		1 bit		Stores true or false values
+char		2 bytes		Stores a single character/letter or ASCII values
+
+1. Integer types
+
+2. Floating point types 
+
+2a. float myNum = 5.75f;
+    System.out.println(myNum);
+    
+2b. double myNum = 19.99d;
+	System.out.println(myNum);
+
+Scientific numbers
+  float f1 = 35e3f; 35000.0
+  double d1 = 12E4d; 120000.0
+  
+ ASCII Value - chart
+ char myVar1 = 65, myVar2 = 66, myVar3 = 67;
+    System.out.println(myVar1);
+    System.out.println(myVar2);
+    System.out.println(myVar3);
+    
+    Non-primitive data types: Reference Types - they refer to objects
+    Non-primitive types are created by the programmer and is not defined by Java
+    Non-primitive types can be null.
+    Examples of non-primitive types are Strings, Arrays, Classes, Interface
+    
+    Type Casting
+    
+    Widening - small to large (automatic)
+    
+    int myInt = 9;
+    double myDouble = myInt; // Automatic casting: int to double
+
+    System.out.println(myInt);      // Outputs 9
+    System.out.println(myDouble);
+     
+    Narrowing - large to small 
+    double myDouble = 9.78d;
+    int myInt = (int) myDouble; // Manual casting: double to int
+
+    System.out.println(myDouble);   // Outputs 9.78
+    System.out.println(myInt); 
+    
+    
+*/
